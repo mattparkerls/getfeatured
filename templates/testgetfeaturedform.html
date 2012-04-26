@@ -1,0 +1,6 @@
+<form action="/getfeatured/submit/" method="post">{% csrf_token %}
+
+    <input  {{ Contact.firstName }} />
+    <input  {{ Contact.lastName }} />
+    <input type="submit" id="submit" name="submit" class="button sixth" value="submit »"/>
+</form>
